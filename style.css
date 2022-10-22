@@ -1,0 +1,36 @@
+body{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+span{
+    color:orange;
+}
+.hire{
+    border: 10px;
+    background-image: linear-gradient(lightsalmon, tomato );
+    border-radius:10px 25px;
+    padding: 10px 30px; 
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    font-weight: 700px;
+}
+.width{
+    width:50%;
+    margin: 20px;
+    padding: 20px;
+}
+.width img {
+    width:100%;
+}
+section{
+    display:flex;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat:no-repeat;
+}
