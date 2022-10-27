@@ -5,6 +5,9 @@ body{
 }
 h1{
     font-size: 50px;
+}  
+h3{
+        color: orange;    
 }
 span{
     color:orange;
@@ -27,7 +30,7 @@ span{
 .width img {
     width:100%;
 }
-section{
+.flexible-section{
     display:flex;
     margin-bottom: 120px;
 }
@@ -39,4 +42,17 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.box{
+    box-shadow:10px 10px 40px lightgrey;
+    width: 50%;
+    height: 300px;
+    padding: 20px;
+    margin: 0 40px 0 40px;
+    
+}
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: top 150px right 100%;
 }
