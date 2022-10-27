@@ -41,7 +41,7 @@ span{
 .top-banner2{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: top 50% right 0px;
 }
 .box{
     box-shadow:10px 10px 40px lightgrey;
@@ -49,10 +49,18 @@ span{
     height: 300px;
     padding: 20px;
     margin: 0 40px 0 40px;
-    
+}
+#color1{
+    border-left: 5px solid blue ;
+}   
+#color2{
+    border-left: 5px solid tomato ;
 }
 .experience{
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: top 150px right 100%;
+}
+footer p {
+    text-align: center;
 }
